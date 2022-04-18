@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href = "cadiadinho.png">
+        <link rel="stylesheet" href="./style.css">
+        <title>Criptografador de textos</title>
+        <script src = "criptografador.js"></script>
+    </head>
+    <body>
+        <div class = "popup" id = "popup">
+            <img src = "cadiadinho.png" class = "cadiadinho" width = "30px" height = "30px"/>
+            <img src = "cadiadinho.png" class = "cadiadinho2" width = "30px" height = "30px"/>
+            <h1>Bem Vindo!</h1>
+            <p>Bem vindo ao <strong><em>criptograph!</em></strong> O seu encriptador de textos favorito! Como utilizar? O criptograph
+            conta com uma biblioteca de mais de 70 caracteres a serem encriptografados e descriptografados a seu agrado,
+            na primeira área de texto voce digitará o conteúdo a ser encriptografado, no segundo campo tudo que estiver encriptografado
+            no formato do criptgraph será convertido para o terceiro campo. Terminou, funcionou? Quer fazer de novo?
+            limpe o campo e efetue o mesmo processo!
+            </p>
+            <input type = "button" class = "tendeu" onclick = "entendeu()" value = "ENTENDI">
+        </div>
+        <div class = "corpo" id = "corpo">
+            <div>
+                <img src = "cadiadinho.png" class = "cadiadinho" width = "30px" height = "30px"/>
+                <img src = "cadiadinho.png" class = "cadiadinho2" width = "30px" height = "30px"/>
+                <h1>CRIPTOGRAFADOR</h1>
+                <p>Digite o texto a ser <strong><em>encriptografado</em></strong>:</p>
+                <textarea id = "criptografa" name = "criptografa" placeholder = "Digite aqui o seu texto..." ></textarea>
+            </div>
+                <div class = "botao">
+                    <input type = "button" class = "decisao" value = "CRIPTOGRAFAR" onclick = "criptografaTexto()"/>
+                </div>
+            <div>
+                <h1>Texto encriptografado</h1>
+                <p>Salve o texto para <strong><em>descriptografa-lo</em></strong> mais tarde:</p>
+                <textarea id = "descriptografa" name = "descriptografa" placeholder = "Resultado..." ></textarea>
+            </div>
+                <div class = "botao">
+                    <input type = "button" class = "decisao" value = "DESCRIPTOGRAFAR" onclick = "descriptografaTexto()"/>
+                </div>
+            <div>
+                <h1>Descriptografe seu texto</h1>
+                <p>Texto <strong><em>descriptografado</em></strong>:</p>
+                <textarea id = "descriptografa2" name = "descriptografa2" placeholder = "Texto descriptografado..."></textarea>
+            </div>
+                <div class = "botao">
+                    <input type = "button" class = "decisao" value = "LIMPAR ESPACOS" onclick = "limpaDados()"/>
+            </div>
+        </div>    
+    </body>
+</html>

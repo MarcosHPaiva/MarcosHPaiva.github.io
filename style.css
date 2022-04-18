@@ -1,0 +1,117 @@
+body {  
+    background-color: #ccd5ee;
+    background-image: linear-gradient(rgba(216, 211, 211, 0.5), rgba(216, 211, 211, 0.5)), url("criptografia-de-dados.png");
+    background-repeat: repeat;
+    
+}
+div {
+    font-family: fantasy;
+    margin: 40px;
+    text-align: center;
+}
+.popup{
+    background-color: #36559d;
+    border-radius: 5px;
+    margin-left: 40.5%;
+    margin-right: auto;
+    box-sizing: border-box;
+    box-shadow: 3px 3px #2f2f2f;
+    border-color: #2f2f2f;
+    border-style: groove;
+    width: 500px;
+    height: 500px;
+    font-size: 130%;
+    text-align: center;
+    padding: 20px;
+    font-family: fantasy;
+}
+.tendeu{
+    width: 100px;
+    height: 40px;
+    box-shadow: 3px 3px #2f2f2f;
+    opacity: .7;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    font-family: fantasy;
+    text-align: center;
+    border-style: groove;
+    font-size: 80%;
+}
+.corpo{
+    background-color: #36559d;
+    border-radius: 5px;
+    margin-left: 38.5%;
+    margin-right: auto;
+    position: absolute;
+    box-sizing: border-box;
+    border-color: #2f2f2f;
+    border-style: groove;
+    display: none;
+    animation: fadeIn;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+.decisao{
+    width: 150px;
+    height: 30px;
+    margin-top: -100px;
+    opacity: .7;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    font-family: fantasy;
+    text-align: center;
+    border-style: groove;
+    box-shadow: 3px 3px #2f2f2f;
+}
+.cadiadinho{
+    float: left;
+}
+.cadiadinho2{
+    float: right;
+}
+p {
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;
+
+}
+textarea {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    opacity: .9;
+    font-size: larger;
+    font-family: fantasy;
+    box-sizing: border-box;
+    box-shadow: 3px 3px #2f2f2f;
+    resize: none;
+}
